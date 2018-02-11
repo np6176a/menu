@@ -21,6 +21,17 @@
     postcss-loader "^2.0.10"
     style-loader "^0.19.1"
 
+"@zeit/next-css@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@zeit/next-css/-/next-css-0.0.7.tgz#8eb0c3829d757854921488e4e1e1a5c086f3fad8"
+  dependencies:
+    css-loader "^0.28.9"
+    extract-text-webpack-plugin "^3.0.2"
+    find-up "^2.1.0"
+    ignore-loader "^0.1.2"
+    postcss-loader "^2.0.10"
+    style-loader "^0.19.1"
+
 "@zeit/next-less@^0.0.9":
   version "0.0.9"
   resolved "https://registry.yarnpkg.com/@zeit/next-less/-/next-less-0.0.9.tgz#3034fa9c04c5d27a188314af70bce1b1f1b9e3f4"
