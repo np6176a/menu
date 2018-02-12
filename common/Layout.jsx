@@ -15,21 +15,29 @@ export default ({children, title = 'Menu App'}) => (
       <link href="https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans" rel="stylesheet"/>
       {/*adding fontawesome*/}
       <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+      {/*bootstrap cdn*/}
+      <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/journal/bootstrap.min.css" rel="stylesheet"/>
     </Head>
 
     {/*the main nav*/}
-    <header>
-      <nav>
-        <a href='https://vehiclemedia.com/'><img src="../static/img/logoem.png" /></a>
-        <Link href='/'><a>Menu</a></Link>
-        <Link href='/test'><a>Test</a></Link>
-      </nav>
+    <header className="container-fluid">
+      <div className="row">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+          <a className="navbar-brand" href='https://vehiclemedia.com/'><img src="../static/img/logo.png"/></a>
+          <Link href='/'><a className="nav-link">Menu</a></Link>
+          <Link href='/test'><a className="nav-link">Test</a></Link>
+        </nav>
+      </div>
     </header>
 
-    { children }
+    {children}
 
-    <footer>
-      {'Footer'}
+    <footer className="container-fluid">
+      <div className="row">
+        <p className="col-xs-12">
+          The React Test App
+        </p>
+      </div>
     </footer>
   </div>
 )
