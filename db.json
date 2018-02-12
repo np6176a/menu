@@ -1,10 +1,54 @@
 {
-  "menu-data": [
+  "menuData": [
     {
       "menuItem": "2 Eggs Breakfast",
-      "calories":0,
+      "calories":78,
+      "fat": 5,
+      "carbs": 1,
+      "protein": 6,
       "price": 3,
-      "img":"egg-icon",
+      "img":"eggs-icon",
+      "items": [
+        {
+          "name": "egg",
+          "calories": 78,
+          "fat": 5,
+          "carbs": 1,
+          "protein": 6,
+          "options": [
+            "Scrambled",
+            "Soft Boiled",
+            "Poached"
+          ],
+          "extras": [
+            {
+              "name": "cheese",
+              "calories": 100,
+              "fat": 5,
+              "carbs": 8,
+              "protein": 2,
+              "price": 1
+            },
+            {
+              "name": "mushrooms",
+              "calories": 20,
+              "fat": 5,
+              "carbs": 1,
+              "protein": 2,
+              "price": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menuItem": "3 Eggs Breakfast",
+      "calories":120,
+      "fat": 10,
+      "carbs": 2,
+      "protein": 12,
+      "price": 6,
+      "img":"eggs-icon",
       "items": [
         {
           "name": "egg",
@@ -40,7 +84,10 @@
     },
     {
       "menuItem": "Steak & Eggs",
-      "calories":150,
+      "calories":250,
+      "fat": 90,
+      "carbs": 60,
+      "protein": 80,
       "price": 8,
       "img":"steak-icon",
       "items": [

@@ -21,19 +21,17 @@ export default ({children, title = 'Menu App'}) => (
 
     {/*the main nav*/}
     <header className="container-fluid">
-      <div className="row">
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-          <a className="navbar-brand" href='https://vehiclemedia.com/'><img src="../static/img/logo.png"/></a>
-          <Link href='/'><a className="nav-link">Menu</a></Link>
-          <Link href='/test'><a className="nav-link">Test</a></Link>
-        </nav>
-      </div>
+      <nav className="navbar navbar-expand-lg navbar-dark bg-primary row justify-content-center">
+        <Link href='/'><a className="nav-link">Menu</a></Link>
+        <a className="navbar-brand" href='https://vehiclemedia.com/'><img src="../static/img/logo.png"/></a>
+        <Link href='/test'><a className="nav-link">Test</a></Link>
+      </nav>
     </header>
 
     {children}
 
     <footer className="container-fluid">
-      <div className="row">
+      <div className="row justify-content-center">
         <p className="col-xs-12">
           The React Test App
         </p>
